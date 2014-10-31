@@ -14,3 +14,7 @@ gem 'spring',        group: :development
 gem 'bootstrap-sass'
 gem 'rails_12factor'
 
+group :production do 
+	gem 'pg'
+	gem 'rails_12factor'
+end
